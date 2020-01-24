@@ -7,7 +7,7 @@ import functools
 from torch.autograd import Variable
 import numpy as np
 from layer_util import *
-from MaskContextAE_NET import MaskContextAE_NET
+from .MaskContextAE_NET import MaskContextAE_NET
 
 
 class MaskTwoStreamConv_NET(MaskContextAE_NET):
